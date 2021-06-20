@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "chapter 1": "One day, You and your friends sitting in a pub. While having fun, a stranger approache you and gave you a piece of paper, saying: “ DON’T BE LATE  TONIGHT!! ” with a title \"ROOM ESCAPE GAME\". You notice a location written at the bottom of the paper. What will you do?",
+    "options": [{"answer":"Go to Location","boolean":false},{"answer":"Stay in the pub","boolean":false}],
+    "consequences": [],
+    "trials": 0
+  },
+  {
+    "id": 2,
+    "chapter 2": "You arrived to the location. The stranger ,a girl, greetes you and explaines to you that you have to fill a form and sign on terms to start the game. Anything can happen in the game even death. what will you choose? ",
+    "options": [{"answer":"Sign the terms","boolean":false},{"answer":"Abort","boolean":false}],
+    "consequences": [],
+    "trials": 0
+  },
+  {
+    "id": 3,
+    "chapter 3": "Welcome to the game! She guides you through a spooky hall to reach a room called  \"THE START OF THE END\". You enter the room and meet the game instructor, in his turn tell you where the instructions are written, and you can call for one hint. The instructor suddenly disapear. You have to solve the riddle below.",
+    "options": [{"answer":"A map","boolean":true},{"answer":"The road","boolean":false} , {"answer":"Forest","boolean":false}],
+    "consequences": ["Lock a friend in a Room", "The other"],
+    "trials": 0
+  },
+  {
+    "id": 4,
+    "chapter 4": "You chose to imprison one of your teammates? what a shock? In this stage you have to reach the key by solving the riddle below.",
+    "options": [{"answer":"Echo","boolean":true},{"answer":"Fire","boolean":false} , {"answer":"Tornado","boolean":false}],
+    "consequences": [],
+    "trials":0
+  },
+  {
+    "id": 5,
+    "chapter 5": "Congrats you got to this Stage? Congrats for me actually (evil laugh). You see your friend covered with red. is it his blood or ...? the smell is awfull. This is you assignment, write the given phrase in Spanish : \"Respectfully yours,no bad intentions,just for fun\"",
+    "options": [{"answer":"Take a hint","boolean":false},{"answer":"submit","boolean":false}],
+    "consequences": ["stage 1"],
+    "trials":1
+  },
+  {
+    "id": 6,
+    "chapter 6": "You have to drink this poison or you can fight until one of you is still standing. Your call? :)",
+    "options": [{"answer":"Drink poison","boolean":false},{"answer":"Battle until one standing","boolean":false}],
+    "consequences": ["win 1$"],
+    "trials": 0
+  }
+]
